@@ -92,7 +92,7 @@ var nombrePdf = document.getElementById("nombreInput").value,
 //--- Generacion de PDF
 var doc = new jsPDF();
 var logo = new Image();
-logo.src = '/img/logos/logo-floower-negro.png';
+logo.src = './img/logos/logo-floower-negro.png';
 
 doc.setFontSize(22);
 doc.addImage(logo, 50, 0, 100, 20);
